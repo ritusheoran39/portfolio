@@ -1,0 +1,316 @@
+/* General Styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(168, 209, 20);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: url('portfolio.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ffa500;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+}
+
+/* Sections Styles */
+section {
+    padding: 100px 20px 50px; /* Adjusted to accommodate fixed header */
+    background-color: #fff;
+    margin-top: 60px; /* Additional space to prevent overlap with fixed header */
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+section p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #666;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project p {
+    color: #666;
+}
+
+/* Skills Section Styles */
+#skills {
+    background-color: #fff;
+    padding: 60px 20px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#skills h2 {
+    color: #333;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    color: #666;
+}
+
+/* Education Section Styles */
+#education {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#education h2 {
+    color: #333;
+}
+
+#education .education-item {
+    margin-bottom: 20px;
+}
+
+#education h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#education p {
+    color: #666;
+}
+
+/* Work Experience Section Styles */
+#work {
+    background-color: #fff;
+    padding: 60px 20px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#work h2 {
+    color: #333;
+}
+
+#work .work-item {
+    margin-bottom: 20px;
+}
+
+#work h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#work p {
+    color: #666;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#contact h2 {
+    color: #333;
+}
+
+#contact p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+#contact button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px; /* Space from the last section */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.back-to-top {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background-color: #333;
+        z-index: 1000;
+        overflow-y: auto;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+
+    .nav-links.open {
+        transform: translateX(0);
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+}
